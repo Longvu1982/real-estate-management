@@ -38,7 +38,7 @@ const Sidebar: FC<{ markerList: TMarker[]; mapRef: RefObject<Map> }> = ({
                 <IoMdResize />
                 <strong>Diện tích:</strong>
               </div>
-              <p className="font-semibold">{area} km²</p>
+              <p className="font-semibold">{area} m²</p>
             </div>
             <div className="flex items-start gap-4">
               <div className="flex items-center gap-2 w-24 text-sky-700">
